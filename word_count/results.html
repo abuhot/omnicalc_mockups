@@ -22,81 +22,80 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css">
+
+.dl-horizontal dt{white-space:normal}
+
+  </style>
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="">
-          <i class="fa fa-calculator"></i>
-          Omnicalc
-        </a>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">
+        <i class="fa fa-calculator"></i>
+        Omnicalc
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="row">  <!-- First row -->
+
+    <div class="col-md-3">
+
+      <div class="list-group">
+        <a href="../word_count/new.html" class="list-group-item">
+          <i class="fa fa-book"></i> Word Count</a>
+          <a href="../loan_payment/new.html" class="list-group-item">
+            <i class="fa fa-money"></i> Loan Payment</a>
+            <a href="../time_between/new.html" class="list-group-item">
+              <i class="fa fa-clock-o"></i> Time Between</a>
+              <a href="../descriptive_statistics/new.html" class="list-group-item">
+                <i class="fa fa-bar-chart"></i> Descriptive Statistics</a>
       </div>
     </div>
-  </nav>
-
-  <div class="container">
-
-    <div class="row">  <!-- First row -->
-
-      <div class="col-md-3">
-
-        <div class="list-group">
-          <a href="../descriptive_statistics/new.html" class="list-group-item">
-            <i class="fa fa-book"></i> Word Count</a>
-          <a href="../loan_payment/new.html" class="list-group-item">
 
 
-            <i class="fa fa-money"></i> Loan Payment</a>
-          <a href="../time_between/new.html" class="list-group-item">
-            <i class="fa fa-clock-o"></i> Time Between</a>
-          <a href="../word_count/new.html" class="list-group-item">
-            <i class="fa fa-bar-chart"></i> Descriptive Statistics</a>
-        </div>
+            <div class="col-md-9">
 
-      </div>
-
-     <div class="col-md-9">
-          <div class="panel panel-default">
+              <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Descriptive Statistics Results</h3>
+                  <h3 class="panel-title">Word Count Results</h3>
                 </div>
                 <div class="panel-body">
-                   <dl class="dl-horizontal">
-                      <dt>Numbers</dt>
+                  <div class="panel-body">
+                    <dl class="dl-horizontal">
+                      <div>
+                      <dt>Text</dt>
+                      <dd><p></p></dd>
+
+                      <dt>Word Count</dt>
                       <dd></dd>
 
-                      <dt>Sorted Numbers</dt>
+                      <dt>Character Count
+                      (with spaces)</dt>
                       <dd></dd>
 
-                      <dt>Count</dt>
+                      <dt>Character Count
+                       (without spaces)</dt>
                       <dd></dd>
 
-                      <dt>Minimum</dt>
+                      <dt>Occurrences of <code></code></dt>
                       <dd></dd>
-
-                      <dt>Maximum</dt>
-                      <dd></dd>
-                      <dt>Range</dt>
-                      <dd></dd>
-                      <dt>Median</dt>
-                      <dd></dd>
-                      <dt>Sum</dt>
-                      <dd></dd>
-                      <dt>Mean</dt>
-                      <dd></dd>
-                      <dt>Variance</dt>
-                      <dd></dd>
-                      <dt>Standard Deviation</dt>
-                      <dd></dd>
-                      <dt>Mode</dt>
-                      <dd></dd>                    </dl>
+                      </div>
+                    </dl>
                   </div>
                 </div>
-     </div>
+              </div>
+            </div>
+    </div>
+  </div>
 
-    </div> <!-- End of First row -->
 
-  </div> <!-- End of Container --> </body>
+</body>
 </html>
